@@ -1,0 +1,41 @@
+# Laravel specific
+/laravel/public/hot
+/laravel/public/storage
+/laravel/storage/*.key
+/laravel/vendor
+/laravel/.env
+Homestead.json
+Homestead.yaml
+
+# PHPUnit
+.phpunit.result.cache
+
+# Node + Yarn
+/laravel/node_modules
+npm-debug.log
+yarn-error.log
+
+# User specific
+.docker-sync
+.env
+docker-compose.custom.yml
+docker/.idea
+docker/.project
+docker//jenkins/jenkins_home
+docker/data
+docker/logs
+.DS_Store
+
+# Logstash
+docker/logstash/config/pipelines.yml
+docker/logstash/pipeline/*.conf
+
+# Nginx
+docker/nginx/ssl/*.crt
+docker/nginx/ssl/*.csr
+docker/nginx/ssl/*.key
+
+# Devcontainer
+/.devcontainer/*
+!/.devcontainer/devcontainer.example.json
+!/.devcontainer/docker-compose.extend-example.yml
