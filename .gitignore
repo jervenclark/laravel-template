@@ -15,6 +15,10 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
+/.laradock/
+
+.php_cs.cache
+
 # User specific
 .docker-sync
 .env
