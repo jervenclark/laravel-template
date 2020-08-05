@@ -31,11 +31,15 @@ class DatabaseSeeder extends Seeder
 
         factory(User::class)
             ->create([ 'email' => 'superadmin@site.com' ])
-            ->assignRole('super-admin');
+            ->assignRole('superadmin');
 
         factory(User::class)
             ->create([ 'email' => 'admin@site.com' ])
             ->assignRole('admin');
+
+        factory(User::class)
+            ->create([ 'email' => 'subscriber@site.com' ])
+            ->assignRole('subscriber');
 
         factory(User::class, 5)
             ->create()
